@@ -1,0 +1,29 @@
+{
+  "name": "clever-chat-frontend",
+  "version": "0.0.1",
+  "authors": [
+    "Sam Deering <sam@clevertech.biz>"
+  ],
+  "description": "This module provides live chat for your web application.",
+  "main": "main.js",
+  "keywords": [
+    "cleverstack",
+    "clevertech",
+    "cleverstack-module",
+    "cleverstack-frontend"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/CleverStack/clever-chat-frontend",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "~0.9.16",
+    "socket.io": "~0.9.15"
+  },
+  "rename": "cs_chat"
+}
